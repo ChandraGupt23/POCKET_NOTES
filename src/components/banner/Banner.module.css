@@ -10,12 +10,11 @@
   height: 25vw;
 }
 .banner_sec h1 {
-  font-size: clamp(20px, 4vw, 35px);
-  font-weight: 500;
-  line-height: 41px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  margin-bottom: 20px;
+  font: 500 clamp(20px, 4vw, 35px) / 41px sans-serif;
+letter-spacing: 0.02em;
+text-align: center;
+margin-bottom: 20px;
+
 }
 .banner_sec p {
   color: rgba(41, 41, 41, 1);
